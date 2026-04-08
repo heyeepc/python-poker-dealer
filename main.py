@@ -19,3 +19,12 @@ class Card():
     def pic_order(self):
         if self.rank == "A":
             FaceNum = 1
+        elif self.rank == "j":
+            FaceNum = 11
+        elif self.rank == "Q":
+            FaceNum = 12
+        elif self.rank == "K":
+            FaceNum = 13
+        else:
+            FaceNum = int(self.rank)
+        
