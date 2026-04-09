@@ -19,7 +19,7 @@ class Card():
     def pic_order(self):
         if self.rank == "A":
             FaceNum = 1
-        elif self.rank == "j":
+        elif self.rank == "J":
             FaceNum = 11
         elif self.rank == "Q":
             FaceNum = 12
@@ -47,10 +47,11 @@ class Hand():
             rep = ""
             for card in self.cards:
                 rep = rep + str(card) + "\t"
-                
-            else:
-                rep = "无牌"
-            return rep
+
+        else:
+            rep = "无牌"
+        return rep
+
     def clear(self):
         self.cards = []
     def add(self,card):
