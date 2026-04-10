@@ -60,4 +60,27 @@ class Hand():
         self.cards.remove(card)
         other_hand.add(card)
 
+class poke(Hand):
+
+    def populate(self):
+        for suit in Card.SUITS:
+            for rank in Card.RANKS:
+                self.add(Card(rank,suit))
+
+    def shuffle(self):
+
+        import random
+        random.shuffle(self.cards)
+        def dea(self,hands,per_hand=13):
+            for rounds in range(per_hand):
+                for hand in hands:
+                    if self.cards:
+                        top_card = self.cards.pop[0]
+                        self.cards.remove(top_card)
+                        hand.add(top_card)
+
+                else:
+                    print("不能继续发牌，牌已经发完")
+
+
         
