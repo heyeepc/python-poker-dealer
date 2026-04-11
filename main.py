@@ -82,5 +82,22 @@ class poke(Hand):
                 else:
                     print("不能继续发牌，牌已经发完")
 
+if __name__=="__main__":
+    
+    print("this is a module with classes for playing cards")
+    players=[Hand(),Hand(),Hand(),Hand]
+    poke1=poke()
+    poke1.populate()
+    poke1.shuffle()
+    poke1.deal(players,13)
+    n = 1
+    for hand in players:
+        print("牌手",n,end=":")
+        print(hand)
+        n+=1
+    input("\npress the enter key to exit")
+    
+
+
 
         
