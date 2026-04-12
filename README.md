@@ -13,4 +13,4 @@
 
 克隆/下载项目：
 
-git clone https://github.com/your-username/poker-system.git
+git clone https://github.com/heyeepc/python-poker-dealer.git
