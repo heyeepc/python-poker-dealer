@@ -9,3 +9,8 @@
 动态发牌：支持自定义发牌轮数和玩家数量，具备牌库耗尽预警逻辑。
 
 状态切换：支持卡牌的“翻面”操作（明牌/暗牌显示）。
+
+
+克隆/下载项目：
+
+git clone https://github.com/your-username/poker-system.git
