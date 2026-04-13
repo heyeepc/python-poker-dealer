@@ -13,4 +13,8 @@
 
 克隆/下载项目：
 
+```bash
+
 git clone https://github.com/heyeepc/python-poker-dealer.git
+
+``````
